@@ -1,15 +1,3 @@
-# annrobles.github.io
-
-Results-driven Senior Software Developer base in Toronto Canada with over 5 years of professional experience in web and software development. I have worked on various large-scale projects that prioritized responsive design, performance optimization, and cross-functional collaboration.
-
-I pride myself on my ability to translate project requirements into visually appealing and efficient solutions.
-
-Click the link below to open my portfolio.
-<https://annrobles.github.io/>
-
-![preview](https://annrobles.github.io/assets/images/preview.png)
-
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

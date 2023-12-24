@@ -5,13 +5,14 @@
 	"Header.Item4": "Testimonial",
 	"Header.Item5": "Contact",
 	"Header.cvBtn": "Resume",
-	"Header.cvName": "FloreceAnn_Robles_Resume.pdf",
+	"Header.cvName": "Mokrane_KADRI_Resume.pdf",
 	"Banner.Pretitle": "Hello! My name is",
 	"Banner.Description": "I'm a software engineer with <span class='underline'>over 5 years of experience</span>, specializing in developing systems, interfaces, bots, and technological solutions. I pride myself on my ability to translate project requirements into visually appealing and efficient solutions. Currently, I'm employed at <span class='underline'>RCG Global Services</span>, where I focus on building accessible, human-centered products.",
 	"Banner.ActionBtn": "Get in touch",
 	"AboutMe.Title": "About me",
+	"Jobs.environments.qualifier" : "Technical & Functional Environnement",
 	"AboutMe.Paragraphs": [
-		"Hey there, I'm Florece Ann. I hold a Bachelor's Degree in Computer Science and currently exploring the world of  Mobile App Design and Development. Throughout my career, I've been involved in various large-scale projects, prioritizing responsive design, performance optimization, and cross-functional collaboration. I love turning a project's 'wish list' into something that not only looks great but also performs well.",
+		"Hey there! 👋 Welcome to my corner of the coding universe! I'm a Full Stack Developer, fluent in the art of Java Spring Boot and Angular. Think of me as a digital architect, juggling both frontend flair and backend wizardry to cook up applications that just work – no frills, just function. Ready to dive into a world where I turn caffeine into code and transform ideas into digital reality? Buckle up, and let's take a ride through my portfolio! 🚀",
 		"On a typical day, you'll find me working hand-in-hand with backend engineers on API integrations, turning designs into actual, clickable things, and squashing bugs with our QA team. I'm all about teamwork, taking ownership of what I do, and always looking for ways to help others grow in their roles, too.",
 		"Some of the technologies that I have trained and worked on include (but are not limited to):"
 	],
