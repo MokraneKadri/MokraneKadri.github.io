@@ -3,7 +3,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"MokraneKadri-portfolio": {
+		"mokranekadri-portfolio": {
 			"projectType": "application",
 			"schematics": {},
 			"root": "",
@@ -83,18 +83,18 @@
 				"serve": {
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"options": {
-						"browserTarget": "MokraneKadri-portfolio:build"
+						"browserTarget": "mokranekadri-portfolio:build"
 					},
 					"configurations": {
 						"production": {
-							"browserTarget": "MokraneKadri-portfolio:build:production"
+							"browserTarget": "mokranekadri-portfolio:build:production"
 						}
 					}
 				},
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
 					"options": {
-						"browserTarget": "MokraneKadri-portfolio:build"
+						"browserTarget": "mokranekadri-portfolio:build"
 					}
 				},
 				"test": {
@@ -128,11 +128,11 @@
 					"builder": "@angular-devkit/build-angular:protractor",
 					"options": {
 						"protractorConfig": "e2e/protractor.conf.js",
-						"devServerTarget": "MokraneKadri-portfolio:serve"
+						"devServerTarget": "mokranekadri-portfolio:serve"
 					},
 					"configurations": {
 						"production": {
-							"devServerTarget": "MokraneKadri-portfolio:serve:production"
+							"devServerTarget": "mokranekadri-portfolio:serve:production"
 						}
 					}
 				},
@@ -142,7 +142,7 @@
 			}
 		}
 	},
-	"defaultProject": "MokraneKadri-portfolio",
+	"defaultProject": "mokranekadri-portfolio",
 	"schematics": {
 		"@schematics/angular:component": {
 			"styleext": "scss"
