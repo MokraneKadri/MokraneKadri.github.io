@@ -1,0 +1,255 @@
+{
+	"Header.Item1": "A Propos",
+	"Header.Item2": "Expériences",
+	"Header.Item3": "Formations",
+	"Header.Item4": "Compétences",
+	"Header.Item5": "Contact",
+	"Header.cvBtn": "C.V",
+	"Header.cvName": "Mokrane_KADRI_Resume.pdf",
+	"Banner.Pretitle": "Hello! je m'appelle",
+	"Banner.Description": "Je suis ingénieur logiciel sénior avec <span class='underline'>plus de 6 ans expérience</span>, spécialisé dans le développement Full-stack d'applications web modernes.<p><br/> Passionné par la création d'applications web robustes et évolutives, je possède une vaste expérience en tant que développeur Full Stack spécialisé dans les technologies Java, Spring et Angular. Avec une base solide dans le développement backend en utilisant Java et le framework Spring, j'excelle dans la conception et la mise en œuvre d'API REST efficaces.</p><p><br/>Je prospère en relevant les défis et m'engage à fournir un code de haute qualité et maintenable. Mon objectif est de créer des applications efficaces qui dépassent les attentes. Convaincu de l'importance du travail d'équipe, je valorise la collaboration et la communication transparente pour assurer le succès collectif. Collaborons pour construire la prochaine génération de solutions innovantes et évolutives !</p>",
+	"Banner.ActionBtn": "Contactez moi",
+	"AboutMe.Title": "A Propos de Moi",
+	"Formations.Title": "Formations & Certifications",
+	"Formations.OtherTitle": "Autres Formations",
+	"Competences.Title": "Compétences Techniques",
+	"competences.languages": "Languages",
+	"competences.tools": "Outils",
+	"competences.cicd": "CI /CD",
+	"competences.database": "Bases De Données",
+	"competences.frameworks": "FrameWorks",
+	"Jobs.environments.qualifier": "Environnement technique & fonctionnel",
+	"AboutMe.Paragraphs": [
+		"Salut ! \uD83D\uDC4B Je suis un développeur Full Stack passionné par Java Spring Boot et Angular. Considérez-moi comme un architecte numérique jonglant avec le frontend et le backend pour créer des applications simples et fonctionnelles. Prêt à plonger dans un monde où la caféine se transforme en code et les idées deviennent réalité ? Attachez-vous, explorons ensemble mon portfolio !\uD83D\uDE80",
+		"Au quotidien, je collabore avec les ingénieurs backend, transforme des conceptions en éléments concrets, et résous des bugs avec l'équipe QA. Axé sur le travail d'équipe, je prends en charge mes projets et encourage la croissance de chacun.",
+		"Voici un échantillon des technologies et d'outils sur lesquelles j'ai été formé et que je perfectionne au quotidien :"
+	],
+	"AboutMe.conclude": [
+		"So that's a bit about me. Can't wait to bring my skills and passion to some more exciting projects!"
+	],
+	"Experience.Title": "Mes Expériences professionnelles",
+	"Experience.Jobs": [
+		{
+			"Tab": "Fédération Française de Tennis [F.F.T]",
+			"Title": "Développeur FullStack Sénior Java, Spring & VueJs",
+			"Date": "Octobre 2023 - Present",
+			"Description": [
+				"Revamped and streamlined CSS for Disney Visa card banners by implementing scalable parent-child styles, resulting in an 80% decrease in reported bugs and a 20% increase in efficiency in maintaining and updating 50+ banners",
+				"Programmed new visa card and promotion pages for Disneyland, DisneyCruise, and DisneyWorld, accessed by millions globally",
+				"Implemented web accessibility and mobile responsiveness across different screen sizes",
+				"Performed a code review of pull requests to ensure code is 100% compliant to all standards and style guidelines of the team"
+			],
+			"technicalStacks": [
+				"Java",
+				"Spring Framework",
+				"ReactJS/Redux",
+				"JSX",
+				"Thmeleaf",
+				"Hibernate",
+				"JWT",
+				"Hibernate",
+				"PostgreSQL",
+				"Querydsl",
+				"E-Commerce",
+				"MarketPlace",
+				"SCRUM"
+			]
+		},
+		{
+			"Tab": "BNP Paribas Securities Services [BPSS]",
+			"Title": "Développeur FullStack Java, Spring & Angular",
+			"Date": "Mars 2022 - Septembre 2023",
+			"Description": [
+				"Référent technique sur le projet, qualification et accompagnement des nouveaux arrivants",
+				"Réalisation des tests, revue du code, relecture et validation de Merge Requests",
+				"Rédaction des documents techniques en collaboration avec les Business Analyste et POs",
+				"Mise en place d’une architecture multi-modules Back-End et Front-End (Maven, Angular)",
+				"Implémentation de micro-services en charge de convertir différents messages d’allocation de trades (XML,CSV,SWIF,JSON) vers des messages FIXML interprétables par MO FISCD et CCP",
+				"Développement d’un Dashboard (API et Front) permettant d’avoir des métriques sur le traitement des messages : acquittements, rejets et taux de réussites/échecs de conversions de messages",
+				"Création d’un système en charge du monitoring des processus qui traitent les différents messages des brokers et capable de les arrêter/redémarrer à la demande"
+			],
+			"technicalStacks": [
+				"Java17",
+				"Angular13",
+				"Spring",
+				"MO FISCD",
+				"Feign Clients",
+				"Hibernate",
+				"Liquibase",
+				"Oracle",
+				"IBM MQ",
+				"ActiveMq",
+				"FIXML",
+				"Docker",
+				"Sonar",
+				"Git",
+				"Jenkins",
+				"Artifactory",
+				"Intellij",
+				"Jira"
+			]
+		},
+		{
+			"Tab": "BNP Paribas Securities Services [BPSS]",
+			"Title": "Développeur FullStack Java, Spring & Angular",
+			"Date": "January 2021 - Mars 2022",
+			"Description": [
+				"Mise en place d’un workflow en charge de la vérification d’éligibilité, récupération des Haircuts",
+				"Implémentation des APIs capables d’interagir avec UBIX pour gérer les sécu. et les mouvements",
+				"Revues du codes et réalisation des Tests Unitaires avec Junit, Mockito et AssertJ",
+				"Support Technique de niveau 3 des environnements de production",
+				"Implémentation du système d’authentification et de gestion des accès (Back-End et Front-End)",
+				"Participation aux différentes cérémonies agile (plannings, daily, démos, rétros)"
+			],
+			"technicalStacks": [
+				"Architecture Micro-services",
+				"Java8",
+				"Angular7",
+				"Spring",
+				"Hibernate",
+				"Oracle",
+				"UBIX",
+				"Sonar",
+				"Git",
+				"Jenkins",
+				"Artifactory",
+				"Intellij",
+				"Jira",
+				"Agile",
+				"Collaterals",
+				"Securities",
+				"Mouvements",
+				"Positions"
+			]
+		},
+		{
+			"Tab": " Société Générale [SGCIB]",
+			"Title": "Développeur FullStack Java, Spring & Angular",
+			"Date": "Mars 2018 - Décembre 2020",
+			"Description": [
+				"Implémentation des services et des règles de déformation pour différentes market data (Rate,Crédit, Forex, Equity, Bond, Commodity)",
+				"Revue du codes, Animation de BBL, Team sharing sessions, onboarding des nouveaux arrivants",
+				"Support Technique de niveau 2 et 3 des environnements de production",
+				"Lead Developer sur la partie Front-End (Angular), qualification des nouveaux collaborateurs",
+				"Tests Unitaires avec Junit, Mockito et AssertJ, tests fonctionnels avec des BDD (Cucumber)"
+			],
+			"technicalStacks": [
+				"Java8",
+				"Angular7",
+				"Spring Framework",
+				"Arch. Micro-services",
+				"PostgreSQL",
+				"RabbitMQ",
+				"Sonar",
+				"Git",
+				"Jenkins",
+				"XL Deploy",
+				"Jira",
+				"Intellij",
+				"risque du marché",
+				"VAR",
+				"SVAR",
+				"PnL",
+				"ES"
+			]
+		},
+		{
+			"Tab": " Société Générale [SGCIB]",
+			"Title": "Développeur FullStack Java, Spring & Angular",
+			"Date": "Septembre 2017 - Février 2018",
+			"Description": [
+				"Analyse des besoins/feedback, rédaction des spécifications techniques",
+				"Rédaction des tests unitaires en Junit et Mockito et des BDD (Cucumber)",
+				"Développement des web services REST en charge de la gestion du workflow",
+				"Développement de fonctionnalités Front de l’application avec Angular4",
+				"Participation aux cérémonies Scrum, présentation des démos"
+			],
+			"technicalStacks": [
+				"Architecture Micro-services",
+				"Java8",
+				"Angular4",
+				"Spring Framework",
+				"PostgreSQL",
+				"Drools",
+				"RabbitMQ",
+				"Feign"
+			]
+		},
+		{
+			"Tab": "MIRAKL",
+			"Title": "Développeur FullStack Java, Spring & React",
+			"Date": "Février 2017 - Septembre 2017",
+			"Description": [
+				"Développement des APIs REST en SpringBoot et du Front de l’application en ReactJS et Redux",
+				"Mise en place d’un système de gestion d’identité et de Rôles avec Spring Security et Google SSO",
+				"Intégration continue avec Jenkins et GitHub, tests unitaires et d’intégration avec AssertJ et JUnit",
+				"Déploiement et mise en production de l’application sur AWS en utilisant Kubernetes et Jenkins"
+			],
+			"technicalStacks": [
+				"Java",
+				"Spring Framework",
+				"ReactJS/Redux",
+				"JSX",
+				"Thmeleaf",
+				"Hibernate",
+				"JWT",
+				"Hibernate",
+				"PostgreSQL",
+				"Querydsl",
+				"E-Commerce",
+				"MarketPlace",
+				"SCRUM"
+			]
+		}
+	],
+	"Formations.education": [
+		{
+			"Qualifier": "Master 2 Sciences et Technologies du Logiciel",
+			"Location": "Université Pierre et Marie Curie - UPMC",
+			"Link": "https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-stl",
+			"Date": "2016 – 2017"
+		},
+		{
+			"Qualifier": "Licence 3 en Informatique",
+			"Location": "Université Pierre et Marie Curie - UPMC",
+			"Link": "https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-stl",
+			"Date": "2014 – 2015"
+		},
+		{
+			"Qualifier": "Licence 1 en Mathématiques",
+			"Location": "Université Paris-Est Créteil Val de Marne - UPEC",
+			"Link": "https://www.u-pec.fr/fr/formation/niveau-l/double-licence-mathematiques-informatique",
+			"Date": "2009 – 2010"
+		},
+		{
+			"Qualifier": "Baccalauréat Scientifique",
+			"Location": "",
+			"Link": "",
+			"Date": "2008 - 2009"
+		}
+	],
+	"Formations.other": [
+		{
+			"Qualifier": "Cyber Sécurité & hacking éthique",
+			"Location": "HACKTHEBOX",
+			"Link": "https://www.hackthebox.com/",
+			"Date": "2022 – 2023"
+		},
+		{
+			"Qualifier": "Clean Artchitecture, DDD, Elk Stack, Docker, Java17",
+			"Location": "Pluralsight",
+			"Link":"https://www.pluralsight.com/",
+			"Date": "2021 – 2022"
+		},
+		{
+			"Qualifier": "Sensibilisation à l’Agilité (Scrum, Kanban)",
+			"Location": "Softeam",
+			"Link": "https://www.softeamgroup.fr/",
+			"Date": "2009 – 2009"
+		}
+	],
+	"Contact.Pretitle": "Me Contacter",
+	"Contact.Title": "Contactez-moi !!",
+	"Contact.Content": "Je suis ouvert à de nouvelles collaborations et opportunités passionnantes. N'hésitez pas à me contacter pour discuter de projets, d'idées innovantes ou simplement pour échanger sur le monde du développement. Mon email est à votre disposition pour toute correspondance. Je m'engage à répondre rapidement à tous les messages. Ensemble, explorons les possibilités et façonnons l'avenir numérique. À bientôt !",
+	"Contact.Btn": "Faisons Connaissance !"
+}

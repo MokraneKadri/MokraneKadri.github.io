@@ -1,0 +1,73 @@
+<section class="section formations" id="formations">
+    <div class="container">
+        <div class="section-box">
+            <div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="e-font section-title">
+                    <span class="code-font n-section-title"><i class="fa fa-terminal"></i></span>
+                    {{ "Formations.Title" | translate }}
+                </h3>
+            </div>
+            <div class="formations-tabs" data-aos="fade-up" data-aos-duration="1000">
+                <ul
+                        ngbNav
+                        #nav="ngbNav"
+                        [(activeId)]="active"
+                        orientation="vertical"
+                        class="nav-tabs formations-tabs"
+                >
+                    <li
+                            *ngFor="let formation of 'Formations.education' | translate; let i = index"
+                            [title]="formation.Tab"
+                            [ngbNavItem]="i"
+                    >
+                        <a ngbNavLink>[{{formation.Date}}] <span
+                                class="formation-title">{{ formation.Qualifier }}</span>
+                            <span
+                                    *ngIf="formation.Location.length>0">@ {{formation.Location}}</span>
+                            <span *ngIf="formation.Location.length>0"><i
+                                    title=""
+                                    class="fa fa-link" style="margin-left:10px" aria-hidden="true"
+                                    (click)="openInNewTab(formation)"></i></span>
+
+                        </a>
+
+                    </li>
+                </ul>
+                <div [ngbNavOutlet]="nav" class="mt-2"></div>
+            </div>
+        </div>
+        <div class="other-formation">
+            <h3 class="e-font other-section-title">
+                <span class="code-font n-section-title">03.1.</span>
+                {{ "Formations.OtherTitle" | translate }}
+            </h3>
+            <div class="formations-tabs" data-aos="fade-up" data-aos-duration="1000">
+                <ul
+                        ngbNav
+                        #nav="ngbNav"
+                        [(activeId)]="active"
+                        orientation="vertical"
+                        class="nav-tabs formations-tabs"
+                >
+                    <li
+                            *ngFor="let formation of 'Formations.other' | translate; let i = index"
+                            [title]="formation.Tab"
+                            [ngbNavItem]="i"
+                    >
+						<a ngbNavLink>[{{formation.Date}}] <span
+								class="formation-title">{{ formation.Qualifier }}</span>
+							<span
+									*ngIf="formation.Location.length>0">@ {{formation.Location}}</span>
+							<span *ngIf="formation.Location.length>0"><i
+									title=""
+									class="fa fa-link" style="margin-left:10px" aria-hidden="true"
+									(click)="openInNewTab(formation)"></i></span>
+
+						</a>
+                    </li>
+                </ul>
+                <div [ngbNavOutlet]="nav" class="mt-2"></div>
+            </div>
+        </div>
+    </div>
+</section>
