@@ -8,7 +8,7 @@
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e",
-		"deploy": "ng build --prod --base-href /mokranekadri.github.io/ && ngh --dir=docs --no-silent"
+		"deploy": "ng build --prod --base-href / && ngh --dir=docs --no-silent"
 	},
 	"private": true,
 	"dependencies": {
